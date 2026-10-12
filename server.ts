@@ -1180,4 +1180,10 @@ async function startServer() {
   });
 }
 
-startServer();
+// On Vercel, api/index.ts imports this app and runs it as a serverless function.
+// Everywhere else (local dev, npm start), start the server as usual.
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
