@@ -1,0 +1,9 @@
+{
+  "name": "DermaLens — Look Beyond the Label",
+  "description": "DermaLens — Look Beyond the Label. AI-powered ingredient inspection for skincare and food products with skin diagnosis, dietary analysis, barcode scanner, clean alternatives, and personal exposure tracking in clean white and cherry red.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
